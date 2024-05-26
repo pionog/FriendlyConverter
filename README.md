@@ -3,4 +3,4 @@ You can choose popular formats for audio, video and image. There is also few fil
 
 ## IMPORTANT! GUI is written in Polish as it was a mini-project for "Operating Systems" subject at my university.
 
-This program needs FFMPEG to be installed first.
+This program needs FFMPEG and ImageMagick to be installed first.
