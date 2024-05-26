@@ -1,0 +1,51 @@
+.TH FRIENDLYCONVERTER 7 "2022-05-19" "GNU" "FriendlyConverter man page"
+.SH NAME
+FriendlyConverter \- konwertowanie plikow audio, video i graficznych
+.SH SYNOPSIS
+./FriendlyConverter.sh
+./FriendlyConverter.sh [-h|-v]
+.SH DESCRIPTION
+FriendlyConverter \- Program konwertujacy wskazany przez uzytkownika plik audio, wideo lub plik graficzny do porzadanego formatu. Dodatkowo moze dodac efekty specjalne do pliku koncowego. Wykorzystuje on interfejs graficzny, wiec uzyt
+kownik nie potrzebuje wywolywac zadnych komend
+
+.SH OPTIONS
+-v \- wersja programu
+
+-h \- pomoc
+.SH AUTHOR
+Piotr Noga 188839
+
+
+FriendlyConverter - konwertowanie plików nigdy nie było tak proste
+
+---------------------------------------------POMOCY---------------------------------------------
+
+"1.Plik do konwersji:"
+    Opis:Pozwala wybrać plik, który zostanie skonwertowany w dalszym procesie.
+    Sposób działania: Po kliknięciu tej opcji zostanie otwarte okno, w którym należy wybrać dany plik.
+
+"2. Wybierz format pliku:"
+    Opis:Pozwala wybrać jeden z odpowiednich formatów dla danego pliku.
+    Sposób działania: Po wybraniu tej opcji wyświetlona zostanie lista, która składa się z odpowiednich dla danego pliku formatów. Oznacza to, że dla plików dźwiękowych wyświetlone będą formaty takie jak .mp3, .flac, .wav, a dla plików wideo np. .mp4, .avi itp.
+
+"3. Nazwa docelowa:"
+    Opis:Umożliwia wybranie katalogu, w którym będzie znajdował się plik po konwersji oraz nazwę tego pliku.
+    Sposób działania: Najpierw wyświetlone zostanie okno, w którym można wybrać dany folder, gdzie będzie zapisany plik. Wybranie opcji "Anuluj" spowoduje zapisanie pliku w tym samym folderze, co katalog konwertowanego pliku. Następnie pojawi się okienko, w którym można wpisać nazwę pliku. Gdy użytkownik nie wpisze żadnej nazwy, zapisany plik będzie miał tą samą nazwę, co konwertowany plik.
+
+"4. Efekty specjalne"
+    Opis:Opcja dodaje wybrane efekty specjalne dla danego pliku.
+    Sposób działania: W zależności od typu pliku, po zaznaczeniu tej opcji, pojawi się lista z odpowiednimi efektami specjalnymi. Przykładowo dla plików audio można ustawić odwrócony dźwięk, bądź zmienić tempo, natomiast dla plików graficznych można zmienić ich rozmiar czy też obrócić obraz.
+
+"5. Przejdz do ekranu konwertowania"
+    Opis:Ekran podsumowujący wybrane opcje konwersji.
+    Sposób działania:
+
+"6. Pomocy"
+    Opis:Spis funkcji programu oraz wyjaśnienie poszczególnych opcji.
+
+"7. Wersja"
+    Opis:Wyświetla informacje o programie i jej wersji.
+
+"8. Koniec"
+    Opis:Wyjście z programu.
+    Sposób działania: Wyświetlony zostanie komunikat, który pyta się użytkownika, czy na pewno chce zakończyć działanie programu. Zapobiega to przypadkowemu opuszczeniu programu.
